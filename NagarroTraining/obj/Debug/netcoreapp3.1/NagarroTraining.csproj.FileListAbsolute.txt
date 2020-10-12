@@ -1,0 +1,12 @@
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/bin/Debug/netcoreapp3.1/NagarroTraining.deps.json
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/bin/Debug/netcoreapp3.1/NagarroTraining.runtimeconfig.json
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/bin/Debug/netcoreapp3.1/NagarroTraining.runtimeconfig.dev.json
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/bin/Debug/netcoreapp3.1/NagarroTraining.dll
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/bin/Debug/netcoreapp3.1/NagarroTraining.pdb
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/obj/Debug/netcoreapp3.1/NagarroTraining.csprojAssemblyReference.cache
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/obj/Debug/netcoreapp3.1/NagarroTraining.AssemblyInfoInputs.cache
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/obj/Debug/netcoreapp3.1/NagarroTraining.AssemblyInfo.cs
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/obj/Debug/netcoreapp3.1/NagarroTraining.csproj.CoreCompileInputs.cache
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/obj/Debug/netcoreapp3.1/NagarroTraining.dll
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/obj/Debug/netcoreapp3.1/NagarroTraining.pdb
+/Users/codingblocks/Projects/NagarroTraining/NagarroTraining/obj/Debug/netcoreapp3.1/NagarroTraining.genruntimeconfig.cache

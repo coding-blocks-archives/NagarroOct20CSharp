@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{E26C0138-B882-426A-BB38-A1B1B6C36E2B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NagarroTraining/Recusrion.cs">
+    <Files>
+      <File FileName="NagarroTraining/EmptyCSharpFile.cs" Line="40" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NagarroTraining" expanded="True">
+            <Node name="NagarroTraining" expanded="True">
+              <Node name="Recusrion.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NagarroTraining PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
