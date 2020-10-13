@@ -4,7 +4,7 @@ namespace Recursion
 {
     class RecursionQs
     {
-        static void Main(string[] args)
+        static void main(string[] args)
         {
             // PDI(3);
             // CoinToss(4, "");
