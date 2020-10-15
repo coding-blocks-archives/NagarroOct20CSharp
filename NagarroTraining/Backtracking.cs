@@ -4,7 +4,7 @@ namespace Backtracking
 {
     class BacktrackingQs
     {
-        static void Main(string[] args)
+        static void main(string[] args)
         {
             // 1. MAZE PATH
             int[,] maze =
