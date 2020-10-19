@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Rec&amp;BT&amp;DP\" />
+    <Folder Include="OOPS\" />
+    <Folder Include="StackQueue\" />
+  </ItemGroup>
 </Project>

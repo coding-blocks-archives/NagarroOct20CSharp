@@ -4,7 +4,7 @@ namespace DP
 {
     class DPQs
     {
-        static void Main(string[] args)
+        static void main(string[] args)
         {
             int n = 10;
 
