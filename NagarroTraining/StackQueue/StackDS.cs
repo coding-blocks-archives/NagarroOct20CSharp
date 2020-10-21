@@ -5,7 +5,7 @@ namespace StackDS
 {
     public class StackQs
     {
-       static void Main(string[] args)
+       static void main(string[] args)
        {
             //int[] arr = {80,50,70,30,20,40,90,10,5,35 };
             //int[] res = StockSpan(arr);

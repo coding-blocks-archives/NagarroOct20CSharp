@@ -12,8 +12,8 @@ namespace PolymorphismDemo
             Console.WriteLine(Addition(2, 3, 4));
 
             Vehicle v = new Car();
-            Console.WriteLine(v.wheels());
-            v.breaks();
+            Console.WriteLine(v.Wheels());
+            v.Breaks();
         }
 
         public static int Addition(int a, int b)
