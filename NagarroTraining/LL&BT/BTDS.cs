@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace BTDS
 {
@@ -160,21 +161,160 @@ namespace BTDS
 
             return flip || notFlip;
         }
+
+        public int Max()
+        {
+            return Max(root);
+        }
+
+        private int Max(Node node)
+        {
+            if(node == null)
+            {
+                return Int32.MinValue;
+            }
+
+            int lm = Max(node.left);
+            int rm = Max(node.right);
+
+            return Math.Max(node.data, Math.Max(lm, rm));
+        }
+
+        public int Min()
+        {
+            return Min(root);
+        }
+
+        private int Min(Node node)
+        {
+            if (node == null)
+            {
+                return Int32.MaxValue;
+            }
+
+            int lm = Min(node.left);
+            int rm = Min(node.right);
+
+            return Math.Min(node.data, Math.Min(lm, rm));
+        }
+
+        public bool IsBST()
+        {
+            return IsBST(root);
+        }
+
+        private bool IsBST(Node node)
+        {
+            if(node == null)
+            {
+                return true;
+            }
+
+            bool lb = IsBST(node.left);
+            bool rb = IsBST(node.right);
+
+            if (node.data > Max(node.left) && node.data < Min(node.right) && lb && rb)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+        public class VOPair
+        {
+            public Node node;
+            public int vl;
+
+            public VOPair(Node node, int vl)
+            {
+                this.node = node;
+                this.vl = vl;
+            }
+
+        }
+
+        public void VerticalDisplay()
+        {
+            int min = Int32.MaxValue ;
+            int max = Int32.MinValue;
+
+            Hashtable table = new Hashtable();
+
+            Queue<VOPair> q = new Queue<VOPair>();
+            VOPair sp = new VOPair(root, 0);
+            q.Enqueue(sp);
+
+            while(q.Count != 0)
+            {
+                VOPair pp = q.Dequeue();
+
+                if(!table.ContainsKey(pp.vl))
+                {
+                    table.Add(pp.vl, new List<int>());
+                }
+
+                ((List<int>)table[pp.vl]).Add(pp.node.data);
+
+                if(pp.node.left != null)
+                {
+                    VOPair lp = new VOPair(pp.node.left, pp.vl - 1);
+                    q.Enqueue(lp);
+                }
+
+                if (pp.node.right != null)
+                {
+                    VOPair rp = new VOPair(pp.node.right, pp.vl + 1);
+                    q.Enqueue(rp);
+                }
+
+                // update max and min
+                max = Math.Max(max, pp.vl);
+                min = Math.Min(min, pp.vl);
+
+            }
+
+            // hashtable print
+            for(int key =min; key <=max; key++)
+            {
+                Console.Write(key + " -> ");
+
+                foreach(int val in (List<int>)table[key])
+                {
+                    Console.Write(val + ", ");
+                }
+
+                Console.WriteLine();
+            }
+
+
+
+        }
     }
 
     public class ClientBT
     {
-        public static void main(string[] args)
+        public static void Main(string[] args)
         {
             BT bt = new BT();
             bt.TakeInput();
             bt.Display();
-            Console.WriteLine(bt.Ht());
+            // Console.WriteLine(bt.Ht());
 
-            BT bt2 = new BT();
-            bt2.TakeInput();
+            //BT bt2 = new BT();
+            //bt2.TakeInput();
 
-            Console.WriteLine(bt.FlipEquivalent(bt2));
+            //Console.WriteLine(bt.FlipEquivalent(bt2));
+
+            //Console.WriteLine(bt.max());
+            //Console.WriteLine(bt.min());
+
+            //  Console.WriteLine(bt.isBST());
+
+            bt.VerticalDisplay();
         }
     }
 }
