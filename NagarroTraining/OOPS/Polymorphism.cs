@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace PolymorphismDemo
+namespace Polymorphism
 {
 
-    class Polymorphism
+    class PolymorphismDemo
     {
 
-        static void Main1(string[] args)
+        static void main(string[] args)
         {
             Console.WriteLine(Addition(2, 3));
             Console.WriteLine(Addition(2, 3, 4));

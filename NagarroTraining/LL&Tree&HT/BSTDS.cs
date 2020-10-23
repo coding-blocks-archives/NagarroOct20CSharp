@@ -1,7 +1,8 @@
 ﻿using System;
-namespace NagarroTraining.LLBT
+
+namespace BSTDS
 {
-    public class BSTDS
+    public class BST
     {
        public class Node
         {
@@ -109,7 +110,7 @@ namespace NagarroTraining.LLBT
     {
         public static void main(string[] args)
         {
-            BSTDS bst = new BSTDS();
+            BST bst = new BST();
             bst.Add(50);
             bst.Add(30);
             bst.Add(70);

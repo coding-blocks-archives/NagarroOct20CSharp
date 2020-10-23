@@ -295,9 +295,9 @@ namespace BTDS
         }
     }
 
-    public class ClientBT
+    public class Client
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             BT bt = new BT();
             bt.TakeInput();

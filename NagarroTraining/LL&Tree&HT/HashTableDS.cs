@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections;
 
-namespace NagarroTraining.LLBT
+namespace HTDS
 {
-    public class HashTableDS
+    public class HashTableDemo
     {
         public static void main(string[] args)
         {

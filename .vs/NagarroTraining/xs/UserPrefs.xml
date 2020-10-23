@@ -4,11 +4,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NagarroTraining" expanded="True">
-            <Node name="NagarroTraining" expanded="True">
-              <Node name="LL&amp;BT" expanded="True">
-                <Node name="BTDS.cs" selected="True" />
-              </Node>
-            </Node>
+            <Node name="NagarroTraining" expanded="True" />
           </Node>
         </State>
       </Pad>

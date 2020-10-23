@@ -9,6 +9,7 @@
     <Folder Include="Rec&amp;BT&amp;DP\" />
     <Folder Include="OOPS\" />
     <Folder Include="StackQueue\" />
-    <Folder Include="LL&amp;BT\" />
+    <Folder Include="LL&amp;Tree&amp;HT\" />
+    <Folder Include="GraphDS\" />
   </ItemGroup>
 </Project>

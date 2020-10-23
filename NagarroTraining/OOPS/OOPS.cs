@@ -4,7 +4,7 @@ namespace OOPS
 {
     class OOPSDemo
     {
-        static void main11(string[] args)
+        static void main(string[] args)
         {
             Student s = new Student();
             Console.WriteLine(s.age);
